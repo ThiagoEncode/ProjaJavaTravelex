@@ -18,14 +18,14 @@ public class ImcServiceTest {
 	}
 
 	@Test
-	public void quandoPassarUmNomeQueroEleDeResposta() {
+	public void calcImc() {
 		var nome = "IMC: 25,71";
 		String valorValido = service.calcImc(70, 1.65);
 		assertEquals(nome, valorValido);
 	}
 
 	@Test(expected = Exception.class)
-	public void quandoPassarNuloQueroOPadrao() throws Exception {
+	public void nomeNulo() throws Exception {
 
 		Gerente gerente = new Gerente("");
 	
