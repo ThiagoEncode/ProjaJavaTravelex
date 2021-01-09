@@ -7,7 +7,7 @@ public class Individuo {
 
 	public Individuo(String nome) throws Exception {
 
-		boolean isEmpty = nome == null || nome.trim().length() == 0 || nome.substring(0, 1).contains(" ")
+		boolean isEmpty = nome == null || nome.isEmpty() == true || nome.substring(0, 1).contains(" ")
 				|| nome.substring(nome.length() - 1, nome.length()).contains(" ");
 
 		if (isEmpty) {

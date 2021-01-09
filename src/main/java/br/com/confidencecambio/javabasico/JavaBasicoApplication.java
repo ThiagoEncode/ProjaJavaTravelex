@@ -12,8 +12,6 @@ public class JavaBasicoApplication {
 		
 		SpringApplication.run(JavaBasicoApplication.class, args);
 		
-		System.out.println(new Individuo("João Soares Silva").getShortName());
-		
 	}
 
 }

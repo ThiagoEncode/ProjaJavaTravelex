@@ -1,6 +1,5 @@
 package br.com.confidencecambio.javabasico.controller;
 
-import br.com.confidencecambio.javabasico.service.HelloService;
 import br.com.confidencecambio.javabasico.service.ImcService;
 
 import org.springframework.beans.factory.annotation.Autowired;
