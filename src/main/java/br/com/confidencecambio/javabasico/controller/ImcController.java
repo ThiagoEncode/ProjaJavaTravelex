@@ -1,4 +1,4 @@
-package br.com.confidencecambio.javabasico;
+package br.com.confidencecambio.javabasico.controller;
 
 import br.com.confidencecambio.javabasico.service.HelloService;
 import br.com.confidencecambio.javabasico.service.ImcService;
@@ -12,8 +12,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class HelloWorldRs {
-
+public class ImcController {
    
     @Autowired
     private ImcService imcService; 
